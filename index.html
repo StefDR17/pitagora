@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="triangolo.ico" />
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js"></script>
+        <title>Pitagora</title>
+        <h1 id="titolo">Esecutore del teorema di Pitagora.</h1>
+    </head>
+    <body>
+        <label for="name"><h3>Primo cateto:</h3></label>
+        <input type="number" id="c1">
+        <label for="name"><h3>Secondo cateto:</h3></label>
+        <input type="number" id="c2"> <br/> <br/>
+        <button class="border_radius" id="conferma" onclick="calcola()">Calcola</button>
+        <h3>Risultato:</h3>
+        <h3 id="risultato"></h3> <br/><br/><br/>
+        <form action="pagina_due.html">
+            <button type="submit">So l'ipotenusa e un cateto</button>  
+        </form>
+    </body>
+</html>
